@@ -25,7 +25,8 @@ module.exports = (grunt)->
             'Standards/**/*.js'
             'HTMLCS.js'
             'HTMLCS.Util.js'
-            'Contrib/PhantomJS/runner.js'
+            'SQA/cssman.js'
+            'SQA/runner.js'
             'Auditor/HTMLCSAuditor.js'
           ]
       dist:
@@ -37,7 +38,9 @@ module.exports = (grunt)->
             'Standards/**/*.js'
             'HTMLCS.js'
             'HTMLCS.Util.js'
-            'Contrib/PhantomJS/runner.js'
+            'node_modules/underscore/underscore-min.js'
+            'SQA/cssman.js'
+            'SQA/runner.js'
             'Auditor/HTMLCSAuditor.js'
           ],
 
